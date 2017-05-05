@@ -71,7 +71,7 @@ var PrintHello = React.createClass({
   // },
   render : function(){
     var name = this.state.name;
-    var message = this.state.message;
+    var message = this.state.message; 
     return (
       <div>
       <PrintMessage name={name} message={message}/>
